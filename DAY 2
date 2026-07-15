@@ -1,0 +1,13 @@
+package com.liu.variable;
+
+public class variableDemo {
+    public static void main(String[] args) {
+        int pay = 10;
+        int card = 20;
+        int vx = 0;
+        System.out.println(pay+card+vx);
+        vx = vx + 10;
+        vx =vx -2;
+        System.out.println(vx);
+    }
+}
