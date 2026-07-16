@@ -1,0 +1,32 @@
+public class SnakeGame extends javax.swing.JPanel implements java.awt.event.ActionListener {
+    static final int COLS = 20;
+    static final int ROWS = 20;
+    static final int CELL = 25;
+    static final int WIDTH = 500;
+    static final int HEIGHT = 500;
+    java.util.LinkedList<java.awt.Point> snake;
+    java.awt.Point apple;
+    int dx;
+    int dy;
+    int score;
+    boolean running;
+    javax.swing.Timer timer;
+    int delay;
+    java.util.Random rnd;
+
+    public SnakeGame() { /* compiled code */ }
+
+    void startGame() { /* compiled code */ }
+
+    void placeApple() { /* compiled code */ }
+
+    public void actionPerformed(java.awt.event.ActionEvent e) { /* compiled code */ }
+
+    void move() { /* compiled code */ }
+
+    void gameOver() { /* compiled code */ }
+
+    protected void paintComponent(java.awt.Graphics g) { /* compiled code */ }
+
+    public static void main(java.lang.String[] args) { /* compiled code */ }
+}
